@@ -1,0 +1,14 @@
+@import 'bootstrap';
+
+h2{
+  @extend .text-primary;
+}
+
+html, body {
+  margin: 20px;
+  h2{
+    text-decoration:underline;
+  }
+}
+
+

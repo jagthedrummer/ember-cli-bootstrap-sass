@@ -1,1 +1,14 @@
-/* See app.custom_scss */
+@import 'vendor/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+h2{
+  @extend .text-primary;
+}
+
+html, body {
+  margin: 20px;
+  h2{
+    text-decoration:underline;
+  }
+}
+
+
